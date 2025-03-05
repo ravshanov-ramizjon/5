@@ -121,7 +121,7 @@ function App() {
                 )}
                 <input className="border-1 border-gray-500 pl-2"
                     onKeyUp={(e: any) => setPassword(e.target.value)}
-                    type="text"
+                    type="password"
                     placeholder="password"
                     name="password"
                 />
@@ -130,7 +130,7 @@ function App() {
                 )}
                 <input className="border-1 border-gray-500 pl-2"
                     onKeyUp={(e: any) => setRepeatPassword(e.target.value)}
-                    type="text"
+                    type="password"
                     placeholder="repeatPassword"
                     name="repeatPassword"
                 />
